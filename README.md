@@ -1,4 +1,4 @@
-# Slack AI Agent — New Member Fit Analysis
+# Slack AI Agent: New Member Fit Analysis
 
 A Slack bot that automatically analyzes new members joining a workspace or channel and posts a fit-score summary to a private channel, using Gemini for analysis and basic web research (company site + GitHub lookup) for context.
 
@@ -7,7 +7,7 @@ A Slack bot that automatically analyzes new members joining a workspace or chann
 When someone joins the Slack workspace (or a specific channel), the bot:
 
 1. Pulls their Slack profile info (name, email, title, timezone)
-2. Runs lightweight research — checks their email domain's company site and searches GitHub for a matching profile
+2. Runs lightweight research, checks their email domain's company site and searches GitHub for a matching profile
 3. Sends that context to Gemini, which scores the person's likely fit for the product (0–100) with supporting insights and engagement recommendations
 4. Posts a formatted summary to a private Slack channel
 5. Saves the full analysis to Postgres for later review
