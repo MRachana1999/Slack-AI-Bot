@@ -20,6 +20,12 @@ When someone joins the Slack workspace (or a specific channel), the bot:
 - **PostgreSQL** (via `pg`) for persisting analyses
 - **Axios** for lightweight external lookups (company site, GitHub search)
 
+## Deployment
+The application is deployed on Railway.
+**URL:** https://slack-ai-bot-production-f2ab.up.railway.app
+
+> **Note:** This application is a Slack bot, so its primary functionality is accessible only through an authorized Slack workspace. Visiting the deployment URL in a browser will not display the bot interface.
+
 ## Setup
 
 1. Clone the repo and install dependencies:
